@@ -1,0 +1,210 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin:0px;
+}
+
+/* navigation css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20463f;
+    background-image: url("images/site-logo.png");
+    background-repeat: no-repeat;
+    background-size: 160px auto;
+    background-position: center;
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 24px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #c51e6b;
+    background-image: url("images/active-nav-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+    background-position: center;
+  }
+  .logo {
+      float: left;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 800;
+      font-size: ;
+  }
+  .logo1 {
+    padding: 50px;
+    /*padding-top: 500px;*/
+    background-color: #c51e6b;
+    border-radius: 100%;
+    border-style: groove;
+    border-color: #baff14;
+  }
+
+  /* end */
+
+/* form css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], input[type=password], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:#20208e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #31444a;
+    color: white;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /* end */
+
+  /* trains list */
+  #customers {
+      margin-top: 20px;
+      max-width: 90%;
+      margin-left: 5%; 
+      margin-right: 5%;
+      margin-bottom: 20px;
+  }
+  h1 {
+      text-align: center;
+  }
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #31444a;
+    color: white;
+  }
+  button{
+    max-width: 200px;
+    height:;
+    width: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    background-color: #20208e;
+    color: white;
+    border-radius: 10px;
+    border-color: red;
+    padding: 10px;
+  }
+  .linear-gradient {
+    /*background: linear-gradient(to right, blue 10%, green 20%, red 100%);*/
+    background-color: red;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+
+.registration {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}
+.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+i {
+  border-style: double;
+  border-radius: 100%;
+  padding: 5px;
+}
